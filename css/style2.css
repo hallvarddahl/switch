@@ -1,0 +1,89 @@
+main {
+  width: 650px;
+  top: 50%;
+  left: 50%;
+  margin-top: 8%;
+  transform: translate(-50%, -50%);
+  position: fixed;
+  }
+
+.dot {
+  height: 120px;
+  width: 650px;
+  background-color: #baffb0;
+  border-radius: 50%;
+  display: block;
+  margin-top: 10%;
+  position: relative;
+}
+
+body {
+  background-color: #ccfffa;
+}
+
+h1 {
+  color: #484848;
+  text-align: center;
+  margin-top: 2.3em;
+  font-family: "Damion";
+  font-size: 2.5em;
+  text-shadow: 2px 2px #FFFFFF;
+}
+
+.spark {
+  display: block;
+  filter: drop-shadow(0px 0px 10px yellow);
+  transition: transform .2s;
+  height: 200px;
+  width: 200px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.spark:hover {
+  -ms-transform: scale(1.4); /* IE 9 */
+-webkit-transform: scale(1.4); /* Safari 3-8 */
+transform: scale(1.4);
+}
+
+.g1 {
+  position: absolute;
+  top: 0em;
+  left: 0em;
+}
+
+.g2 {
+  position: absolute;
+  left: 9em;
+  top: -5.5em;
+}
+
+.g3 {
+  position: absolute;
+  left: 9.5em;
+  top: 4.9em;
+}
+
+.g4 {
+  position: absolute;
+  left: 22em;
+  top: -6em;
+}
+
+.g5 {
+  position: absolute;
+  left: 31em;
+  top: -5em;
+}
+
+button {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    width: 18em;
+    margin-left: 15em;
+    margin-bottom: 10em;
+}
